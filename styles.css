@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: grey;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(57, 58, 59);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+#heading{
+    font-family: 'Tektur', cursive;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#header-link{
+    align-self: center;
+    margin-right: 30px;
+}
+
+#form-heading{
+    font-family: 'Tektur', cursive;
+    margin-left: 15px;
+}
+
+#content-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/low-poly-grid-haikei.png);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.content-text{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-shrink: 2;
+    background-color: rgb(188, 190, 202);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Tektur', cursive;
+}
+
+.content img{
+    width: 300px;
+    height: 300px;
+}
+
+#form-heading{
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+#newsletter-form{
+    background-image: url(images/low-poly-grid-haikei.png);
+    height: 82vh;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#newsletter-form input{
+    height: 30px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#newsletter-form label{
+    font-family: 'Tektur', cursive;
+    color: aliceblue;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#newsletter-form button{
+    height: 40px;
+    width: 100px;
+    font-family: 'Tektur', cursive;
+    background-color: slategray;
+    color: rgb(255, 255, 255);
+}
+
+#newsletter-form button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+#footer{
+    background-color: rgb(57, 58, 59);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    height: 8vh;
+}
+
+#footer-text{
+    font-family: 'Tektur', cursive;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#socials{
+    align-self: center;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#socials i{
+    padding: 10px;
+}
